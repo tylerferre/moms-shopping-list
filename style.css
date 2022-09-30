@@ -54,6 +54,7 @@ text-align: center;
 h1{
     text-align:center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px white;
 }
 
 .parentOFUi{
@@ -61,4 +62,23 @@ h1{
 }
 ul{
     display: inline-block;
+}
+
+.enterButton:hover{
+    color:green;
+}
+
+.remove:hover{
+color:red
+}
+
+.inputCls{
+    width:100px;
+    margin:auto;
+}
+
+.inputBtn{
+    text-align: center;
+    margin: auto;
+    display:inline-block;
 }
