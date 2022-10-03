@@ -69,6 +69,8 @@ form.addEventListener("submit", function(e){
     inputButton.addEventListener("click", () => {
         // newItem.textContent = inputValue
         // newItem.append(inputValue)
+        newItem.textContent = editInput.value
+        editInput.append()
         inputButton.remove()
         editInput.remove()
     })
