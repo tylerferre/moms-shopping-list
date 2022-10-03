@@ -69,7 +69,7 @@ ul{
 }
 
 .remove:hover{
-color:red
+    color:red;
 }
 
 .inputCls{
@@ -81,4 +81,12 @@ color:red
     text-align: center;
     margin: auto;
     display:inline-block;
+}
+
+.edit:hover{
+    color:blue;
+}
+
+.inputBtn:hover{
+    color:green;
 }
