@@ -9,8 +9,11 @@ form.addEventListener("submit", function(e){
   
   //create list and append it to list
     var newItem = document.createElement("li")
+    var p = document.createElement("p")
     // newItem.classList.add("remove")
-    newItem.textContent = listItem
+
+    p.textContent = listItem
+    newItem.append(p)
     list.append(newItem)
   
     //create buttons
@@ -67,9 +70,7 @@ form.addEventListener("submit", function(e){
 
     //edit input
     inputButton.addEventListener("click", () => {
-        // newItem.textContent = inputValue
-        // newItem.append(inputValue)
-        newItem.textContent = editInput.value
+        p.textContent = editInput.value
         editInput.append()
         inputButton.remove()
         editInput.remove()
